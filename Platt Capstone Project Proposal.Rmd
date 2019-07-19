@@ -1,0 +1,30 @@
+---
+title: "Capstone Project Proposal"
+author: "Teri Platt"
+date: "7/19/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+What is the problem you want to solve?
+
+I am interested in understanding the relationship between community characteristics and health indicators for children within the United States. I would like to know how community characteristics impact the overall health of children under the age of 18 years. 
+
+Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
+
+The results of my evaluation may be useful to policymakers and advocates for the well-being of children, including nonprofit organizations and public service institutions.
+
+What data are you going to use for this? How will you acquire this data?
+
+The Annie E. Casey Foundation maintains a publicly accessible data repository called KidsCount. I am able to download tables for states, cities, and counties that contain information about community characteristics, like the number of children who live in unsafe environments, family structures, chidren who live in high poverty areas, and kinship care. Additionally, I can obtain information for the same units of analysis about asthma rates, infant mortality rates, dental health, low birth weight babies, and preterm births.
+
+In brief, outline your approach to solving this problem (knowing that this might change later).
+
+My approach would be to compile the information on five characteristics of community and health into one table and look at a total of ten cities/metropolitan areas with with highest, midlevel, and lowest children living in high poverty areas. I could possibly look at change over time across decades (1990-2010).
+
+What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck. 
+
+Deliverables will include the code, the clean dataset, and a slide deck of the descriptive statistics and cross tabulations.
